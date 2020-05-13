@@ -2,7 +2,7 @@ const dummyData = [
 	{
 		username: 'philzcoffee',
 		thumbnailUrl:
-			'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+			'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAYFBMVEX///8AAACHh4ecnJzz8/MSEhJTU1N3d3f7+/v39/eXl5dNTU2Tk5NcXFy7u7s3NzeBgYHn5+fLy8uurq5kZGQJCQlGRkanp6fExMTW1tYmJiYdHR1tbW0sLCwYGBg9PT3lA1+vAAAC40lEQVRogeWa6ZajIBCFwaCNa9y3bO//lq0CLrE7uHDnzJy5f/p0TvALVFFUFRLyX6rJXDQievloRlbQEIxorpQ6YIZFKb0xKIL7HYNGUIZ77RkllEEcip9IMDAolJEIxhUKyQXkjmRwwaAWElJLSIyEVBIC3e6ehBR/AkKRQUUtF3QzpgqST5+5xo8V+rZeLKCBaQYJFaQa/m0o4uxSG0UEFn6j9GIeQh5z0/cmQkCi+VTSpQuYkz+byhCTEwCkUZCHJEIicqAoqVy8BkFpJeSLiH0DScDUtn8SGcwQViGlpCTSQjUCUk1G4UX3N0NAZDYxWLxEhWT2FCdXHyRfKJuwdgz3HLVR1HL1E+gCps0hkHo6HG1agk7iPpjcBr/NbUQQ7nXpGF7/+1lQoSq6gMapMAPGGL0Y7tH/niyAVjkTBah9hxQAyOsdYgMgq0oZAfHfIa1+zG6tKqYXALJKNHz9mN1qc8dxcisaz7ZQP+a4fJlx3JGQzjxD1I6xENr2a+bpv3dOLy4OJKyCWflhULmXZVkw+q07lbcGJV03EZ2yLgFJPn//kNT24EPPj8aEASHSq8pZ4WlMUxAWRZo9ds0MauqNCVsUiN04FRbCq24IH55KSlFthgTgXmOSycVhZY1+Zk7TaWKJD2pAHPYUQxaBRT8z00aRJnHVjx+czfB2FPkQGzsMLQccjh7hSTTbfKmYWP37iAO654vcZCyUjUKWmtoKsIOrnNXiHJFGduFk2bio9CN2q3y/lOSm4/3D+6En1ujHbdKzbf24Sn+pMgP9AzYo09SwJnJi7SWLAbNsuCVkZymbbiLZuVIl3NZT4M4JxvZLr+M+tqdh2JT65/2gcGe/MNtfqT729z3dap+bXQ+2VuvtHpCnxxDDdDLf1iuMzvbxXKYT/P2SY2q8ixF9hBgq61ZdqKXMpMQaf05MZBPadwPc6muueMvU7osh1v7Lrg1WMvAqQBQ6n2X9pTsFp2892SjPv9+/AwAAAABJRU5ErkJggg==',
 		imageUrl:
 			'https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1876&q=80',
 		likes: 400,
@@ -19,6 +19,11 @@ const dummyData = [
 			{
 				username: 'martinseludo',
 				text: "Can't wait to try it!"
+			},
+
+			{
+				username: 'smartDoggies',
+				text: 'gimme those!'
 			}
 		]
 	},
@@ -68,12 +73,12 @@ const dummyData = [
 				text: " @smartDoggies You don't look very smart to me."
 			},
 			{
-				username: 'biancasaurus',
-				text: 'Looks delicious!'
+				username: 'philzcoffee',
+				text: 'What a smart looking doggie, you look like you could use a cup of Philz Coffee!'
 			},
 			{
-				username: 'martinseludo',
-				text: "Can't wait to try it!"
+				username: 'coolCatz',
+				text: ' @philzcoffee  Animals cannot have coffee!'
 			}
 		]
 	},
