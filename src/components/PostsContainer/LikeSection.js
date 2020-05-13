@@ -7,6 +7,7 @@ import { faComment, faHeart } from '@fortawesome/free-regular-svg-icons';
 
 const LikeSection = (props) => {
 	// const [Likes, setLikes] = useState(0);
+	console.log(props);
 	// const addLike = () => {
 	//   setLikes(Likes + 1);
 	// };
@@ -14,17 +15,16 @@ const LikeSection = (props) => {
 		<div>
 			<div className="like-section" key="likes-icons-container">
 				<div className="like-section-wrapper">
-					<FontAwesomeIcon icon={faHeart} onClick={props.clicker} />{' '}
-				</div>{' '}
+					<FontAwesomeIcon icon={faHeart} onClick={props.onClick} />
+				</div>
 				<div className="like-section-wrapper">
-					<FontAwesomeIcon icon={faComment} />{' '}
-				</div>{' '}
-			</div>{' '}
+					<FontAwesomeIcon icon={faComment} />
+				</div>
+			</div>
 			<div className="like-number">
-				{' '}
 				{props.Likes}
-				Likes{' '}
-			</div>{' '}
+				likes
+			</div>
 		</div>
 	);
 };
